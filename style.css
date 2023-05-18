@@ -30,12 +30,10 @@ div#clockdi {
 }
 
 hr {
-    border-bottom: 1px solid red;
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
+    border: 0;
     width: 400px;
-    height: 0;
+    height: 1px;
+    background-color: red;
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 15px;
