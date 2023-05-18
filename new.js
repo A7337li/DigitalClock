@@ -1,5 +1,5 @@
 let clockplace = document.getElementById("clock");
-let paragraph =  document.getElementById("dayly");
+let paragraph = document.getElementById("dayly");
 
 let p = "am";
 
@@ -62,7 +62,7 @@ function meClock() {
         month = "0" + month;
     }
 
-    clockplace.textContent = hour + ":" + min + ":" + sec + " " + p ;
+    clockplace.textContent = hour + ":" + min + ":" + sec + " " + p;
     paragraph.textContent = week[date.getDay()] + " - " + day + " " + mon[date.getMonth()] + " " + year;
     setTimeout(meClock, 1000);
 };
