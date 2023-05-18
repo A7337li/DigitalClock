@@ -34,7 +34,6 @@ function meClock() {
     let min = date.getMinutes();
     let sec = date.getSeconds();
     let day = date.getDate();
-    let month = date.getMonth();
     let year = date.getFullYear();
 
     if (hour > 12) {
@@ -56,10 +55,6 @@ function meClock() {
 
     if (day < 10) {
         day = "0" + day;
-    }
-
-    if (month < 10) {
-        month = "0" + month;
     }
 
     clockplace.textContent = hour + ":" + min + ":" + sec + " " + p;
