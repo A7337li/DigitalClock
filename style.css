@@ -14,17 +14,14 @@ div#clockdi {
     flex-direction: column;
     font-size: 72px;
     color: rgb(226, 204, 4);
-    /* background-color: aqua; */
 }
 
 #clock {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    /* margin-bottom: -155px; */
     font-size: 72px;
     color: rgb(226, 204, 4);
-    /* background-color: green; */
 }
 
 #dayly {
