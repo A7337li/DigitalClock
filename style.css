@@ -12,8 +12,6 @@ body{
 div#clockdi {
     display: flex;
     flex-direction: column;
-    font-size: 72px;
-    color: rgb(226, 204, 4);
 }
 
 #clock {
