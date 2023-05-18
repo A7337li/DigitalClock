@@ -1,9 +1,9 @@
-let clockplace = document.getElementById("clock");
-let paragraph = document.getElementById("dayly");
+const clockplace = document.getElementById("clock");
+const paragraph = document.getElementById("dayly");
 
 let p = "am";
 
-let mon = [
+const mon = [
     "January",
     "February",
     "March",
@@ -18,7 +18,7 @@ let mon = [
     "December"
 ];
 
-let week = [
+const week = [
     "Sunday",
     "Monday",
     "Tuesday",
