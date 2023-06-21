@@ -1,6 +1,6 @@
 # DigitalClock
-Live streaming of this repository in the following link:
-https://a7337li.github.io/DigitalClock/
+Live streaming of this repository in the following link: <br />
+https://a7337li.github.io/DigitalClock/ <br />
 This is a digital clock with a date that gets its information from the user's own device.<br />
 This page is made with the following technologies:
 <ul>
