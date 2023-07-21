@@ -9,7 +9,7 @@ body{
     background-color: black;
 }
 
-div#clockdi {
+div {
     display: flex;
     flex-direction: column;
 }
